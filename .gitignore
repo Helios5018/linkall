@@ -1,0 +1,14 @@
+.build/
+scratch/
+Vendor/
+build/
+.DS_Store
+*.xcuserstate
+*.secrets*
+# 私有 API 默认地址：仅本地构建使用
+scripts/api-defaults.local.json
+
+# 内部文档：仅本地保留，不入库
+docs/PRD2.0.md
+docs/开发状态.md
+docs/验收.md

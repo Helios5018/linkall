@@ -1,0 +1,29 @@
+{
+  "librime": {
+    "version": "1.17.0",
+    "url": "https://github.com/rime/librime/releases/download/1.17.0/rime-33e7814-macOS-universal.tar.bz2",
+    "sha256": "11d8dc663c6ec06d5ccb6111ba664a9e7b631b703ac6acd07cffbac664021850"
+  },
+  "schemas": {
+    "double-pinyin": "01a13287cbd27819be1c34fa1ddc1b3643d5001b",
+    "luna-pinyin": "56b934b099dfbeab842320f13aa8b461a6ab3e42",
+    "wubi": "152a0d3f3efe40cae216d1e3b338242446848d07",
+    "prelude": "082425ea0684bca36474415d4a0e8db9b016487e",
+    "stroke": "1e8fff9b9494ddec23b0cbc526bcfd8171a6fd48",
+    "pinyin-simp": "0c6861ef7420ee780270ca6d993d18d4101049d0"
+  },
+  "dictionaries": {
+    "rime-ice": {
+      "repository": "iDvel/rime-ice",
+      "commit": "3aea6d3694fb3d94ec663641f021f788822897ad",
+      "english_tables": ["en_ext", "en"],
+      "tables": [
+        "8105",
+        "base",
+        "ext",
+        "tencent",
+        "others"
+      ]
+    }
+  }
+}

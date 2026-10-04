@@ -1,0 +1,5 @@
+{
+  "llmURL": "https://your-api.example.com/v1/models/gemini-3.7-flash:generateContent",
+  "asrURL": "https://your-api.example.com/v1/speech-to-text",
+  "authHeader": "Authorization"
+}

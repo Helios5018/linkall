@@ -1,0 +1,49 @@
+# LinkInput: offline English completion using the pinned rime-ice English tables.
+schema:
+  schema_id: linkinput_english
+  name: English 补全
+  version: "1"
+switches:
+  - name: ascii_mode
+    reset: 0
+engine:
+  processors:
+    - recognizer
+    - key_binder
+    - speller
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+  filters:
+    - uniquifier
+speller:
+  alphabet: abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+  algebra:
+    - xform/[^a-zA-Z]//
+    - xform/.*/\L$0/
+    - derive/^./\U$0/
+    - derive/.*/\U$0/
+translator:
+  dictionary: linkinput_english
+  prism: linkinput_english
+  enable_completion: true
+  enable_sentence: false
+  enable_user_dict: false
+  comment_format:
+    - xform/.*//
+key_binder:
+  import_preset: default
+recognizer:
+  import_preset: default
+  patterns:
+    uppercase: ""
+    linkinput_hyphen: "^[a-zA-Z]+-[-a-zA-Z0-9]*$"
+    url: ""
+    email: ""

@@ -1,0 +1,32 @@
+{
+  "glog": {
+    "repository": "google/glog",
+    "commit": "7b134a5c82c0c0b5698bb6bf7a835b230c5638e4",
+    "license_file": "COPYING"
+  },
+  "leveldb": {
+    "repository": "google/leveldb",
+    "commit": "99b3c03b3284f5886f9ef9a4ef703d57373e61be",
+    "license_file": "LICENSE"
+  },
+  "yaml-cpp": {
+    "repository": "jbeder/yaml-cpp",
+    "commit": "2f86d13775d119edbb69af52e5f566fd65c6953b",
+    "license_file": "LICENSE"
+  },
+  "marisa-trie": {
+    "repository": "s-yata/marisa-trie",
+    "commit": "3e87d53b78e15f2f43783d5e376561a8c9722051",
+    "license_file": "COPYING.md"
+  },
+  "opencc": {
+    "repository": "BYVoid/OpenCC",
+    "commit": "556ed22496d650bd0b13b6c163be9814637970ae",
+    "license_file": "LICENSE"
+  },
+  "googletest": {
+    "repository": "google/googletest",
+    "commit": "f8d7d77c06936315286eb55f8de22cd23c188571",
+    "license_file": "LICENSE"
+  }
+}
